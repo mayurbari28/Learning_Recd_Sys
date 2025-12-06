@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 import sys
 sys.path.append("src")
 
@@ -24,16 +25,16 @@ if st.button("Recommend"):
         selected_user, interactions_df, items_df, user_enc, item_enc, k=5
     )
 
+    # Convert list of dicts to DataFrame
+    df_results = pd.DataFrame(results)
+
     st.subheader(f"Recommendations for {selected_user}")
-    for r in results:
-        st.markdown(
-            f"""
-            **{r['title']}**  
-            • Item ID: `{r['item_id']}`  
-            • Category: `{r['category']}`  
-            • Difficulty: `{r['difficulty']}`  
-            """
-        )
+
+    # Display as table
+    st.dataframe(
+        df_results[["item_id", "title", "item_type", "category", "difficulty", "format"]],
+        use_container_width=True
+    )
 
 st.write("---")
 st.caption("Powered by SASRec Transformer Model")

@@ -20,7 +20,11 @@ def main(user_id):
 
     print(f"\n=== Recommendations for User {user_id} ===")
     for r in results:
-        print(f" • {r['item_id']} → {r['title']} ({r['category']}, {r['difficulty']})")
+        print(
+            f" • {r['item_id']} → {r['title']} "
+            f"({r['item_type']}, {r['category']}, {r['difficulty']}, format={r['format']})"
+        )
+
 
 
 if __name__ == "__main__":

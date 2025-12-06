@@ -54,7 +54,9 @@ def decode_recommendations(pred_ids, item_encoder, items_df):
             "item_id": item_id,
             "title": row["title"],
             "category": row["category"],
-            "difficulty": row["difficulty"]
+            "difficulty": row["difficulty"],
+            "item_type": row.get("item_type", "unknown"),
+            "format": row.get("format", "unknown")
         })
     return results
 

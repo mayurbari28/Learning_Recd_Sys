@@ -1,31 +1,31 @@
-item_id,title,category,difficulty
-I001,Course 1,ML,intermediate
-I002,Course 2,Math,intermediate
-I003,Course 3,DS,beginner
-I004,Course 4,Python,intermediate
-I005,Course 5,Math,intermediate
-I006,Course 6,Math,advanced
-I007,Course 7,Math,intermediate
-I008,Course 8,DS,beginner
-I009,Course 9,ML,intermediate
-I010,Course 10,ML,intermediate
-I011,Course 11,Python,advanced
-I012,Course 12,Math,intermediate
-I013,Course 13,DS,advanced
-I014,Course 14,DS,advanced
-I015,Course 15,ML,advanced
-I016,Course 16,Math,beginner
-I017,Course 17,DS,intermediate
-I018,Course 18,SQL,beginner
-I019,Course 19,ML,intermediate
-I020,Course 20,Python,advanced
-I021,Course 21,DS,advanced
-I022,Course 22,SQL,intermediate
-I023,Course 23,Math,beginner
-I024,Course 24,Python,intermediate
-I025,Course 25,ML,intermediate
-I026,Course 26,Math,beginner
-I027,Course 27,DS,intermediate
-I028,Course 28,Math,beginner
-I029,Course 29,SQL,intermediate
-I030,Course 30,Python,intermediate
+item_id,title,category,difficulty,item_type,format
+I001,Python Basics,Programming,beginner,course,video
+I002,Loop Drills,Programming,intermediate,exercise,coding
+I003,SQL Cheat Sheet,Data,beginner,resource,pdf
+I004,Functions in Python,Programming,beginner,course,video
+I005,Advanced SQL Joins,Data,intermediate,course,video
+I006,Python OOP,Programming,intermediate,course,video
+I007,Statistics Fundamentals,Math,beginner,course,video
+I008,Probability Exercises,Math,intermediate,exercise,coding
+I009,Data Cleaning Guide,Data,beginner,resource,article
+I010,Machine Learning Basics,ML,beginner,course,video
+I011,Regression Exercises,ML,intermediate,exercise,coding
+I012,Decision Trees Guide,ML,beginner,resource,article
+I013,Pandas Tutorial,Data,beginner,course,video
+I014,Pandas Exercises,Data,intermediate,exercise,coding
+I015,Numpy Crash Course,Programming,beginner,course,video
+I016,Deep Learning Intro,ML,intermediate,course,video
+I017,Neural Networks Notes,ML,intermediate,resource,pdf
+I018,SQL Aggregations,Data,beginner,course,video
+I019,Data Visualization Basics,DS,beginner,course,video
+I020,Matplotlib Exercises,DS,intermediate,exercise,coding
+I021,Feature Engineering,ML,advanced,course,video
+I022,ML Cheat Sheet,ML,beginner,resource,pdf
+I023,Python Debugging,Programming,intermediate,course,video
+I024,Code Optimization Tips,Programming,advanced,resource,article
+I025,Time Series Forecasting,DS,advanced,course,video
+I026,EDA Case Study,DS,intermediate,resource,pdf
+I027,SQL Optimization,Data,advanced,course,video
+I028,Feature Selection Exercises,ML,advanced,exercise,coding
+I029,Neural Nets Exercises,ML,advanced,exercise,coding
+I030,Git Essentials,Software,beginner,course,video
